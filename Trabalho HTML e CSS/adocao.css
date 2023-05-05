@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+body {
+    background-image: url(sol0.jpg);
+}
+
+.navbar {
+    background-color: #ffae42; 
+    overflow: hidden;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar a {
+    color: #ffffff; 
+    text-decoration: none;
+    margin: 0 1em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #ffcb6b; 
+}
+
+.active {
+    background-color: #ffcb6b;
+}
+
+header {
+    color: #000;
+    padding: 20px;
+    text-align: center;
+    font-size: 36px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.imagens img {
+    width: 250px;
+    height: 200px;
+    border: 2px solid #485665;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+h1 {
+    font-family: 'Sigmar', cursive;
+}
+
+h2 {
+    font-family: 'Sigmar', cursive;
+}
+
+p {
+    font-family: 'Satisfy',cursive;
+    font-size: 20px;
+}
+
+li {
+    font-family: 'Satisfy',cursive;
+    font-size: 20px;
+}

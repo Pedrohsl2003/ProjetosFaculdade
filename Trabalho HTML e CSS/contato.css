@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(sol0.jpg);
+  background-attachment: #ffffff; 
+}
+
+.navbar {
+  background-color: #ffae42; 
+  overflow: hidden;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.navbar a {
+  color: #ffffff; /* cor de fonte branca */
+  text-decoration: none;
+  margin: 0 1em;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #ffcb6b; 
+}
+
+.active {
+  background-color: #ffcb6b;
+}
+
+.container-contato {
+    height: 100vh;
+    background-image: url(sol0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+}
+
+.contato {
+    margin: auto;
+    text-align: center;
+}
+
+.contato h1 {
+    font-family: 'Sigmar', cursive;
+    font-size: 65px;
+}
+
+.contato h3 {
+    font-family: 'Satisfy', cursive;
+    font-size: 35px;
+}
+
+.container-icons {
+    height: 30vh;
+    background-color: #abbee9;
+    display: grid;
+}
+
+.icons {
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px;
+    border: 5px solid black;
+    border-radius: 5px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.icons h1 {
+    font-size: 20px;
+    font-family: 'Sigmar', cursive;
+}
+
+.icons h3 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icons div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+}
+
+.container-form {
+  background-color: #abbee9;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 100%;
+  max-width: 600px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-family: 'Sigmar', cursive;
+}
+
+label {
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: block;
+  font-family: 'Sigmar', cursive;
+}
+
+input, textarea {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px #6D9DC5;
+}
+
+textarea {
+  height: 150px;
+}
+
+button[type="submit"] {
+  background-color: #6D9DC5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Sigmar', cursive;
+}
+
+button[type="submit"]:hover {
+  background-color: #97b9dd;
+}
