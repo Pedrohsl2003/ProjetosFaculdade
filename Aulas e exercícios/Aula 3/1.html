@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="1.css">
+    <title>Aula 3</title>
+</head>
+<body>
+    <table>
+        <tr>
+          <td>
+                <label for="name">Nome do paciente</label>
+                <input type="text" id="dados" name="name">
+                <hr>
+                <label for="rh">Registro Hospitalar</label>
+                <input type="text" id="dados" name="rh">
+                <hr>
+                <label for="di">Data de Inclusão</label>
+                <input type="text" id="dados" name="di">
+                <hr>
+                <label for="date">Data de nascimento</label>
+                <input type="text" id="dados" name="date">
+                <hr>
+                <label for="email">E-mail</label>
+                <input type="email" id="dados" name="email">
+                <hr>
+                <label for="sexo">Sexo</label>
+                <input type="radio" id="dados" name="sexo" value="feminino">
+                <label for="feminino">Feminino</label>
+                <input type="radio" id="dados" name="sexo" value="masculino">
+                <label for="masculino">Masculino</label>
+                <hr>
+                <label for="raça">Raça declarada</label>
+                <select name="raça" id="dados">
+                  <option value="" selected disabled></option>
+                  <option value="branca">Branca</option>
+                  <option value="negra">Negra</option>
+                  <option value="parda">Parda</option>
+                  <option value="amarela">Amarela</option>
+                  <option value="indígena">Indígena</option>
+                  <option value="desconhecida">Desconhecida</option>
+                </select>
+                <hr>
+                <label for="conhecimento">Como ficou sabendo do estudo?</label><br>
+                <input type="checkbox" id="dados" name="conhecimento[]" value="convidado">
+                <label for="convidado">Convidado</label><br>
+                <input type="checkbox" id="dados" name="conhecimento[]" value="internet">
+                <label for="internet">Internet</label><br>
+                <input type="checkbox" id="dados" name="conhecimento[]" value="amigos">
+                <label for="amigos">Amigos</label><br>
+                <input type="checkbox" id="dados" name="conhecimento[]" value="familiares">
+                <label for="familiares">Familiares</label><br>
+                <input type="checkbox" id="dados" name="conhecimento[]" value="outros">
+                <label for="outros">Outros</label>
+                <hr>
+            <input type="button" class="button" value="Submit">
+          </td>
+        </tr>
+      </table>      
+</body>
+</html>

@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container .information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container .information img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.container h2 {
+    font-size: 24px;
+}
+
+.container p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.container .reserve-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container .reserve-button:hover {
+    background-color: #45a049;
+}
+
+.container .information .coffee-image {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  
